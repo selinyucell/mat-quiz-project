@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+    <title>Matematik Quiz Projesi</title>
+</head>
+
+<body>
+
+    <section class="header">
+        <div class="container">
+            <div class="headerDiv">
+                <div class="h1Div">
+                    <h1>Matematik Quiz</h1>
+                </div>
+                <div class="yuzdeDiv">
+                    <p class="m-0">Başarı yüzdeniz: %<span class="basariYuzde">0</span></p>
+                    <p class="yanlisTekrar">Yanlışlarınızı düzeltip tekrar deneyiniz.</p>
+                    <p class="bravo">Bravo! Bir sonraki egzersize geçebilirsin.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="questionSection">
+        <div class="soruMainDiv">
+            <div class="container">
+                <form class="formEtiket">
+                    <div class="soru my-4">
+                        <div>
+                            <p class="pSoruNo mb-2 fw-semibold">1.Soru</p>
+                            <p class="mb-2">3+5=?</p>
+                        </div>
+                        <div class="form-field">
+                            <input class="radio" name="q1" type="radio" value="7" checked/>
+                            <label>7</label>
+                        </div>
+                        <div class="form-field">
+                            <input class="radio" name="q1" type="radio" value="8" />
+                            <label>8</label>
+                        </div>
+                    </div>
+
+                    <div class="soru my-4">
+                        <div>
+                            <p class="pSoruNo mb-2 fw-semibold">2.Soru</p>
+                            <p class="mb-2">5*2=?</p>
+                        </div>
+                        <div class="form-field">
+                            <input class="radio" name="q2" type="radio" value="5" checked/>
+                            <label>5</label>
+                        </div>
+                        <div class="form-field">
+                            <input class="radio" name="q2" type="radio" value="10"/>
+                            <label>10</label>
+                        </div>
+                    </div>
+
+                    <div class="soru my-4">
+                        <div>
+                            <p class="pSoruNo mb-2 fw-semibold">3.Soru</p>
+                            <p class="mb-2">12/4=?</p>
+                        </div>
+                        <div class="form-field">
+                            <input class="radio" name="q3" type="radio" value="2" checked/>
+                            <label>2</label>
+                        </div>
+                        <div class="form-field">
+                            <input class="radio" name="q3" type="radio" value="3"/>
+                            <label>3</label>
+                        </div>
+                    </div>
+
+                    <div class="soru my-4">
+                        <div>
+                            <p class="pSoruNo mb-2 fw-semibold">4.Soru</p>
+                            <p class="mb-2">5^2=?</p>
+                        </div>
+                        <div class="form-field">
+                            <input class="radio" name="q4" type="radio" value="25" checked/>
+                            <label>25</label>
+                        </div>
+                        <div class="form-field">
+                            <input class="radio" name="q4" type="radio" value="16" />
+                            <label>16</label>
+                        </div>
+                    </div>
+
+                    <div class="submitDiv">
+                        <input type="submit" value="Hesapla" class="buttonSubmit">
+                    </div>
+                </form>
+            </div>
+
+        </div>
+    </section>
+    <script src="script.js"></script>
+</body>
+
+</html>
